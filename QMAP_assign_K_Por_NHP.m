@@ -5,18 +5,18 @@ cc
 tic
 
 alpha=600; % age scalefactor for permeability. Very arbitrary: needs research
-outfolder ='i:\GroundWater\Commercial\MfE GW Atlas 2017\Report1_structure\Hydrogeo_basement\';
+outfolder ='e:\tmp\';
 savefile = 'K_POROS_NZ_v1.4_incl_age.mat';
 csv_output = 'K_POROS_NZ_v1.4_incl_age.csv';
 
-shapename_qmap='e:\ArcGIS\QMAP_GEol_Units_Export_Output_NZTM.shp';
+shapename_qmap='QMAP_GEol_Units_Export_Output_NZTM.shp';
 % classfilename='i:\GroundWater\Commercial\MfE GW Atlas 2017\Report2_Fluxes\Volume\K_values_per_rocktype_v20180821.xls';
 classfilename='K_values_per_rocktype_v20190802.xls';
 
 dogrid=true;
 if dogrid
     savefile_grid = 'geology_K_poros_NZ_v1.4.mat';
-    shapename_area='e:\shapes\NZ_boundary_NZTM.shp';
+    shapename_area='NZ_boundary_NZTM.shp';
     xres=250;yres=250;
 end
 % ---- end input parameters
