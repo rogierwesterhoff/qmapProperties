@@ -5,7 +5,7 @@ cc
 tic
 
 alpha=600; % age scalefactor for permeability. Very arbitrary: needs research
-outfolder ='e:\tmp\';
+outfolder ='c:\tmp\';
 savefile = 'K_POROS_NZ_v1.4_incl_age.mat';
 csv_output = 'K_POROS_NZ_v1.4_incl_age.csv';
 
